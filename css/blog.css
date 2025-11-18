@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+  background-color: #626550;
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.titulo {
+  display: block;
+  font-family: 'Amita', cursive;
+  font-size: 60px;
+  color: #E9C29E;
+  text-align: center;
+  height: 80px;
+}
+
+.subtitulo {
+  display: block;
+  margin: 0 auto;
+  font-weight: 300;
+  font-family: 'Sacramento', cursive;
+  color: #E4CEE3;
+  font-size: 35px;
+  text-align: center;
+}
+
+.encabezado a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu {
+ 
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.menu li:hover {
+  background-color: #8a8d7a;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 28px;
+}
+
+.container {
+  background-color: #ccc798;
+  height: 100%;
+  padding-top: 180px;
+  width: 100%;
+}
+
+.entrada1 {
+  padding: 20px;
+}
+
+.entrada1 img {
+  margin-right: 20px;
+  height: 250px;
+  width: 350px;
+}
+
+.articulo1 {
+  overflow: hidden;
+  max-width: 500px;
+  margin: -238px 361px 110px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+.entrada2 {
+  padding: 20px;
+}
+
+.entrada2 img {
+  margin-right: 20px;
+  height: 250px;
+  width: 350px;
+}
+
+.articulo2 {
+  overflow: hidden;
+  max-width: 500px;
+  margin: -238px 361px 110px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+.entrada3 {
+  padding: 20px;
+}
+
+.entrada3 img {
+  margin-right: 20px;
+  height: 250px;
+  width: 350px;
+}
+
+.articulo3 {
+  overflow: hidden;
+  max-width: 500px;
+  margin: -238px 361px 110px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+.entrada4 {
+  padding: 20px;
+}
+
+.entrada4 img {
+  margin-right: 20px;
+  height: 250px;
+  width: 350px;
+}
+
+.articulo4 {
+  overflow: hidden;
+  max-width: 500px;
+  margin: -238px 361px 110px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+.container a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #232421;
+  text-decoration: none;
+  outline: none;
+  font-size: 30px;
+}
+
+.container p {
+  font-family: 'Outfit', sans-serif;
+  padding-bottom: 10px;
+}
+
+.footer {
+  height: 100%;
+  background-color: #626550;
+  height: 100px;
+  font-family: 'Outfit', sans-serif;
+}
+
+footer p {
+  margin: 16px 0;
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
